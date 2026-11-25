@@ -1,0 +1,11 @@
+.git
+.env
+.env.*
+!.env.example
+**/node_modules
+**/dist
+**/__pycache__
+**/.pytest_cache
+**/*.sqlite3
+**/*.db
+*.zip

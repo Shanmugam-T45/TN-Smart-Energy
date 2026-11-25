@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: tn-smart-energy-demo
+    runtime: docker
+    plan: free
+    dockerContext: .
+    dockerfilePath: ./backend/Dockerfile
+    healthCheckPath: /api/health
+    envVars:
+      - key: PUBLIC_DEMO_MODE
+        value: "true"
+      - key: PUBLIC_DEMO_DB_PATH
+        value: /tmp/tn_smart_energy_public_demo.sqlite3

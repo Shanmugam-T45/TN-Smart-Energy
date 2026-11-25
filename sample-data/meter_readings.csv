@@ -1,0 +1,4 @@
+meter_id,timestamp,energy_kwh,voltage,current_a,active_power_kw,power_factor,feeder_id,transformer_id,consumer_category,sanctioned_load_kw,transformer_rated_kva
+METER-SIM-001,2026-11-22T00:00:00Z,12.4,229,18.2,4.2,0.91,F-SIM-01,T-SIM-201,household,5,250
+METER-SIM-001,2026-11-22T01:00:00Z,11.8,231,17.6,4.1,0.92,F-SIM-01,T-SIM-201,household,5,250
+METER-SIM-002,2026-11-22T00:00:00Z,28.2,228,42.1,9.6,0.88,F-SIM-02,T-SIM-204,commercial,12,315
